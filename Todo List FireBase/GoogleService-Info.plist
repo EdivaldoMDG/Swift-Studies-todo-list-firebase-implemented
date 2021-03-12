@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>835455701036-lrvjqt9ialg78ir8h1thjjc5eaqiglhj.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.835455701036-lrvjqt9ialg78ir8h1thjjc5eaqiglhj</string>
+	<key>API_KEY</key>
+	<string>AIzaSyDbhRKKLGI4jcB1CAMvbnnKQ4KWbHtOWTk</string>
+	<key>GCM_SENDER_ID</key>
+	<string>835455701036</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>Edivaldo-Goncalves.Todo-List-FireBase</string>
+	<key>PROJECT_ID</key>
+	<string>todolistfirebasev1</string>
+	<key>STORAGE_BUCKET</key>
+	<string>todolistfirebasev1.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:835455701036:ios:d7514118e6729c66d68189</string>
+</dict>
+</plist>

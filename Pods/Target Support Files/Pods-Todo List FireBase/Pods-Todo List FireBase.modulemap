@@ -1,0 +1,6 @@
+framework module Pods_Todo_List_FireBase {
+  umbrella header "Pods-Todo List FireBase-umbrella.h"
+
+  export *
+  module * { export * }
+}

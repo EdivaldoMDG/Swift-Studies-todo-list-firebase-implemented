@@ -1,0 +1,6 @@
+framework module Pods_Todo_List_FireBaseTests {
+  umbrella header "Pods-Todo List FireBaseTests-umbrella.h"
+
+  export *
+  module * { export * }
+}
