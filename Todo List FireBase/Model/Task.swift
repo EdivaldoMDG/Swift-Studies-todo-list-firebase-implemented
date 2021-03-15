@@ -10,9 +10,11 @@ import FirebaseFirestore
 import FirebaseFirestoreSwift
 
 struct Task : Codable, Identifiable {
+//Firebase id
    @DocumentID var id: String? 
     var title: String
     var completed: Bool
+    //This add the time that the task was insert that help us order the tasks 
     @ServerTimestamp  var createdTime: Timestamp?
 }
 

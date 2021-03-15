@@ -19,7 +19,7 @@ class TaskCellViewModel: ObservableObject, Identifiable {
     //Listens to any change on the comppletion state
     @Published var completionStateIconName = ""
     
-    //To keep track of our subscribers assign them to a canceble && To use any canceballe we have to import combine
+    //To keep track of our subscribers assign them to a cancellable && To use any canceballe we have to import combine
     private var cancellables = Set<AnyCancellable>()
     
    

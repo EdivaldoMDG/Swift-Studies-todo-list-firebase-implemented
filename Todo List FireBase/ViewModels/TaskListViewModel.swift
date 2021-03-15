@@ -15,6 +15,7 @@ class TaskListViewModel: ObservableObject {
     private var cancellables = Set<AnyCancellable>()
     
     init(){
+        
         //Here we will use the data that we are fetching and listening from our repository
         taskRepository.$tasks
             .map{ tasks in
@@ -39,10 +40,11 @@ class TaskListViewModel: ObservableObject {
         do{
             taskRepository.addTask(task )
         }
-//        let taskVM = TaskCellViewModel(task: task)
-//        self.taskCellViewModels.append(taskVM)
+        //        let taskVM = TaskCellViewModel(task: task)
+        //        self.taskCellViewModels.append(taskVM)
         
     }
     
 }
+
 
